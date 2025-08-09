@@ -26,3 +26,4 @@ jobs:
           chmod +x modulops/**/*.sh
           modulops/scripts/dotnet.sh dummy-dotnet.csproj Release
           ls -la
+          pwd

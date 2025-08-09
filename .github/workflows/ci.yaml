@@ -25,4 +25,4 @@ jobs:
         run: |
           chmod +x modulops/**/*.sh
           modulops/scripts/dotnet.sh dummy-dotnet.csproj Release
-          env
+          ls -la

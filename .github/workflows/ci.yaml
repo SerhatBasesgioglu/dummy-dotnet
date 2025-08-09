@@ -18,8 +18,8 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: serhatbasesgioglu/modulops
-          ref: main
+          ref: dev
           path: modulops
 
       - name:
-        run: dotnet build
+        run: ./modulops/scripts/dotnet.sh

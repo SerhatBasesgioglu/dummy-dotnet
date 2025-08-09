@@ -22,4 +22,6 @@ jobs:
           path: modulops
 
       - name:
-        run: ./modulops/scripts/dotnet.sh
+        run: |
+          pwd
+          ls -la
